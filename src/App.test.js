@@ -1,5 +1,12 @@
 
 test("does the a test 1", ()=>{
-    throw new Error("This is an error");
+    console.log("doing a test");
+});
+
+test("does the a test 2", ()=>{
+    console.log("doing a test");
+});
+
+test("does the a test 3", ()=>{
     console.log("doing a test");
 });
