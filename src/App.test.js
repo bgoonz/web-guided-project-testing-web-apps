@@ -22,9 +22,14 @@
 
 
 
-
-
-test( "does the test number 1", () => {
-  throw new Error("this is an Error")
-  console.log("doin a test");
-})
+import React from 'react';
+import {render,screen} from "@testing—library/react";
+import App from "./App";
+test( "renders the component", () => {
+  render( < App / > );
+} );
+test( "on mount, renders the app header", () => E
+    //Arrange: Render our component
+    render(<App/>);
+    //Act: Find the header
+    const header = screen.queryByText( "Add New Animal" ); console.log( header );
