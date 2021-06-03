@@ -24,7 +24,7 @@ const AnimalForm = ({ errors, touched, values }) => {
     };
     setAnimals([...animals, newAnimal]);
   };
-
+  
   return (
     <div className="animal-form">
       <form onSubmit={event => handleSubmit(event)}>

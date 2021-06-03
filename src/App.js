@@ -4,7 +4,8 @@ import AnimalForm from "./components/AnimalForm";
 import "./App.css";
 
 function App() {
-  console.log("currently rendering");
+  throw new Error("This is an error");
+
   return (
     <div className="App">
       <h1>Add New Animal</h1>
